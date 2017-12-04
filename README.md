@@ -1,5 +1,5 @@
 # API de consulta e pesquisa de CEP do Brasil
-Base de dados do IBGE atualizado mensalmente
+Base de dados atualizado mensalmente com geocoordenadas e código do IBGE
 
 ## Exemplo de uso
 
@@ -17,7 +17,8 @@ curl https://cep.awesomeapi.com.br/05424020
   "state": "SP",
   "lat": "-23.5703026",
   "lng": "-46.6967364",
-  "ddd": "11"
+  "ddd": "11",
+  "city_ibge": "3550308"
 }
 ```
 
@@ -53,6 +54,7 @@ curl https://cep.awesomeapi.com.br/05424020?format=xml
     <lat>-23.5703026</lat>
     <lng>-46.6967364</lng>
     <ddd>11</ddd>
+    <city_ibge>3550308</city_ibge>
 </xml>
 
 ```
