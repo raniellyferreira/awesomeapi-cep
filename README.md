@@ -62,6 +62,3 @@ curl https://cep.awesomeapi.com.br/05424020?format=xml
 > - JSON
 > - JSONP
 > - XML
-> - HTML
-> - CSV
-> - SERIALIZED
