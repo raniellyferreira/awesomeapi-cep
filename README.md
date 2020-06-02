@@ -4,7 +4,7 @@ Base de dados atualizado mensalmente com geocoordenadas e código do IBGE
 ## Exemplo de uso
 
 ```
-curl https://cep.awesomeapi.com.br/05424020
+curl https://cep.awesomeapi.com.br/json/05424020
 ```
 ```json
 {
@@ -22,23 +22,9 @@ curl https://cep.awesomeapi.com.br/05424020
 }
 ```
 
-## Pesquisa de CEP (Em desenvolvimento)
-```
-https://cep.awesomeapi.com.br/search/{criterio de busca}
-```
-```
-curl https://cep.awesomeapi.com.br/search/praca+da+se
-```
-```json
-[
-  {
-  }
-]
-```
-
 ## Formato de saída
 ```
-curl https://cep.awesomeapi.com.br/jsonp/05424020?callback=jsonp_callback
+curl https://cep.awesomeapi.com.br/json/05424020
 curl https://cep.awesomeapi.com.br/xml/05424020
 curl https://cep.awesomeapi.com.br/05424020?format=xml
 ```
@@ -60,5 +46,4 @@ curl https://cep.awesomeapi.com.br/05424020?format=xml
 ```
 > **Formatos suportados**
 > - JSON
-> - JSONP
 > - XML
