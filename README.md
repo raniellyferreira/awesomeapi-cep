@@ -26,7 +26,6 @@ curl https://cep.awesomeapi.com.br/json/05424020
 ```
 curl https://cep.awesomeapi.com.br/json/05424020
 curl https://cep.awesomeapi.com.br/xml/05424020
-curl https://cep.awesomeapi.com.br/05424020?format=xml
 ```
 ```xml
 <xml>
