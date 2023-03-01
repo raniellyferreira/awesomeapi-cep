@@ -1,5 +1,7 @@
-# API de consulta e pesquisa de CEP do Brasil
-Base de dados atualizado mensalmente com geocoordenadas e código do IBGE
+[<img src="https://cdn.awesomeapi.com.br/v2/png/logo-without-slogan.png" height="40px" />](https://awesomeapi.com.br/)
+
+# API de consulta de CEP do Brasil
+Base de dados IBGE com latitude e longitude
 
 ## Exemplo de uso
 
