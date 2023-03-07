@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package addr.v1;
+
+option go_package = "./;pb";
+
+// -- Services
+service AddressService {
+    rpc FindByCep (AddressRequest) returns (Address) {}
+}
+
+// -- Messages
+message Empty {}
+
+message Address {
+    string cep = 1;
+    string address_type = 2;
+    string address_name = 3;
+    string address = 4;
+    string state = 5;
+    string district = 6;
+    string lat = 7;
+    string lng = 8;
+    string city = 9;
+    string city_ibge = 10;
+    string ddd = 11;
+}
+
+message AddressList {
+    repeated Address addresses = 1;
+}
+
+message AddressRequest {
+    string cep = 1;
+}
