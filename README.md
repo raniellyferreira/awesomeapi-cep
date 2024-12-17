@@ -3,6 +3,8 @@
 # API de consulta de CEP do Brasil
 Base de dados IBGE com latitude e longitude
 
+Veja sobre planos e limites em nosso site [awesomeapi.com.br](https://awesomeapi.com.br)
+
 ## Exemplo de uso
 
 ```
